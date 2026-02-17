@@ -23,7 +23,7 @@ fun main(){
         else -> {println("No es un dia de la semana")}
 
         // haciendo un cambio
-        //hacieun error111111111111111111111111111111111111111111ndo cambio 2
+        //haciendo cambio 2
     }
 
 }
