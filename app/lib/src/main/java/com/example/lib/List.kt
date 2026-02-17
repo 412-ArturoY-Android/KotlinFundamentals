@@ -8,7 +8,6 @@ fun main(){
     for(number in numbers){
         println(number)
     }
-
 /*    val limit = 4
 //    var si = 0
 //    for(i in 0 .. limit+1){
@@ -18,7 +17,6 @@ fun main(){
 //    }
 //    println("El numero mayor es $si")
 */
-
     var maxNumber = numbers[0]
     for(number in numbers){
         if(number > maxNumber){
