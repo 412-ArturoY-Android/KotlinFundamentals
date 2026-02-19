@@ -1,3 +1,4 @@
+package com.example.lib.Ejercicios
 // EJERCICIO 5: Bucle while
 // ========================================
 // Dado un numero, calcula la suma de sus digitos usando while.
@@ -10,17 +11,17 @@
 // Suma de digitos de 100: 1
 
 fun main() {
-    val numeros = listOf(12345, 9081, 100)
+    val numeros = listOf(123, 12345, 9081, 100)
 
     for (n in numeros) {
         var numero = n
         var suma = 0
 
         // TODO: Mientras numero > 0:
-        // - suma el ultimo digito (numero % 10)
-        // - reduce numero (numero / 10)
         while (numero > 0) {
             // Completa aqui
+            suma += (numero % 10) // - suma el ultimo digito (numero % 10)
+            numero /= 10          // - reduce un digito del numero (numero / 10)
         }
 
         println("Suma de digitos de $n: $suma")
