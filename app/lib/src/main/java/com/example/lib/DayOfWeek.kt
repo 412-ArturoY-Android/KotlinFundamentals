@@ -21,12 +21,5 @@ fun main(){
         5 -> {println("Es Viernes")}
         6,7 -> {println("Es fin de semana")}
         else -> {println("No es un dia de la semana")}
-
-        // haciendo un cambio
-        //haciendo cambio 2
-        //cambio chido 1.1.1.2.3
-
-        //login pero 2
     }
-
 }
